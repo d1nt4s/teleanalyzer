@@ -1,0 +1,49 @@
+ 
+  .logo a{
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out;
+  }
+
+  .logo a:hover{
+    color: #0056b3;
+  }
+  
+ 
+  .searchbar input {
+    padding: 5px 10px;
+    border: 2px solid #007bff;
+    border-radius: 4px;
+    font-size: large;
+    font-weight: bold;
+    color: #007bff;
+  }
+
+  .searchbar input::placeholder {
+    color: #007bff;
+  }
+
+  .authButtonContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .authButton {
+    padding: 10px 15px;
+    margin: 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .authButton:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+  }
+  

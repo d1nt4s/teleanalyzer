@@ -1,0 +1,201 @@
+ 
+  
+  
+  
+  .content {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .maincontent {
+    flex: 1;
+  }
+  
+  .sidebar {
+    height:min-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+  }
+  
+  .sidebar a{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 11.5px;
+    width: 90%;
+    background-color: #007bff45;
+    border-radius: 10px; /* Закругленные углы */
+    text-decoration: none;
+    color: #000;
+    transition: color 0.15s ease-in-out;
+    font-weight: 600;
+  }
+
+  .sidebar a:hover{
+    background-color: #007bff72;
+  }
+
+  .sidebarwrapper {
+    flex: 2;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    height:min-content;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+
+  
+  
+  .statgraphs {
+    display: flex;
+    flex-direction: column;
+    flex:3;
+  }
+  .statgraph {
+    padding: 10px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 5px;
+    background-color: #ffffff;
+    height: 220px;
+  }
+  
+  .statheader {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .stat_content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .statheader h3{
+    font-size: 18px;
+    padding-top: 5px;
+    font-weight:600;
+  }
+
+  .metrics_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .metrics {
+
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+  }
+  
+
+  .table_metrics td{
+    padding: 10px;
+    padding-left: 0;
+  }
+
+  .table_metrics2 td{
+    padding: 10px;
+    padding-left: 0;
+    font-size: 18px;
+  }
+
+  .analysisgraph{
+    height: 150px;
+    margin-left: 150px;
+    margin-right: auto;
+  }
+
+
+  #subscribersChart {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .tag {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .tag:hover {
+    text-decoration: underline;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+  }
+
+  .channeloverview {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+  
+  .channeloverview .avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .details h1 {
+    margin: 0 0 10px;
+  }
+  
+  .details p {
+    margin: 0 0 20px;
+    font-weight: bold;
+  }
+
+  .details a, .description a{
+    text-decoration: none;
+    transition: color 0.15s ease-in-out;
+    color: #007bff;
+  }
+
+  .details p .linkStat{
+    text-decoration: none;
+    transition: background-color 0.15s ease;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 15px;
+    border-radius: 4px;
+  }
+  
+  .details p .linkStat:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+
+  .details a:hover{
+    color: #0056b3;
+  }
+  
+  .description {
+    text-align: right;
+    margin-left: auto;
+  }
+  .searchbar input {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
