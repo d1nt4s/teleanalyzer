@@ -1,9 +1,10 @@
+import Link from 'next/link';
 import styles from './Header.module.css'
 
 const Header = () => {
     return (
       <header>
-        <div className={styles.logo}><a href="/">TeleAnalyser</a></div>
+        <div className={styles.logo}><Link href="/">TeleAnalyser</Link></div>
         <div className={styles.searchbar}>
           <input type="text" placeholder="Поиск..." />
         </div>
