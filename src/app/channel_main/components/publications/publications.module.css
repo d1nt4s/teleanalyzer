@@ -1,0 +1,55 @@
+
+.publication {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Выровнять текст по левому краю */
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 8px;
+    background-color: #0022ff0a;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+
+  .publication:hover {
+    transform: scale(1.05) ;
+  }
+  
+  .publication img {
+    height: 350px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    align-self: center; /* Центрировать изображение */
+  }
+
+  .publication p{
+    font-weight:600;
+  }
+  
+  .metrics {
+    display: flex;
+    justify-content: flex-start; /* Выровнять метрики по левому краю */
+  }
+  
+  .metrics span {
+    margin-right: 15px;
+    font-size: 14px;
+    color: #555;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #007bff45;
+  }
+  
+  .metrics span img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-bottom: 0;
+    opacity: 0.6;
+  }

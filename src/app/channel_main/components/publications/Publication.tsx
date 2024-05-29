@@ -1,4 +1,4 @@
-import styles from '../../channel_main.module.css'
+import styles from './publications.module.css'
 import Image from 'next/image'
 
 type Props = {

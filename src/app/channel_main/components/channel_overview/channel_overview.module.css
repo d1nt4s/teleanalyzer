@@ -1,0 +1,43 @@
+.channeloverview .avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.details a, .description a{
+    text-decoration: none;
+    transition: color 0.15s ease-in-out;
+    color: #007bff;
+}
+
+.description {
+    text-align: right;
+    margin-left: auto;
+}
+
+.details h1 {
+    margin: 0 0 10px;
+}
+
+.details p {
+    margin: 0 0 20px;
+    font-weight: bold;
+}
+
+.details p .linkStat{
+    text-decoration: none;
+    transition: background-color 0.15s ease;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.details p .linkStat:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.details a:hover{
+    color: #0056b3;
+}

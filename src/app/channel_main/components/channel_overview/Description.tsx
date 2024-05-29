@@ -1,4 +1,4 @@
-import styles from '../../channel_main.module.css'
+import styles from './channel_overview.module.css'
 import Link from "next/link"
 
 export default function Description() {

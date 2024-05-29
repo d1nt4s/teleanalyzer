@@ -13,6 +13,12 @@ images: {
         port: '',
         pathname: '/posts/**',
     },
+    {
+        protocol: 'https',
+        hostname: 'static31.tgcnt.ru',
+        port: '',
+        pathname: '/posts/**',
+    },
     ],
 },
 }

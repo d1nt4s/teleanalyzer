@@ -1,5 +1,5 @@
 /* Нужно разобраться с подключениями стилей, либо для каждого модуля свой стиль, либо проверить что многомерное подключение одного файла не накладывается и не ест ресурсы */
-import styles from '../../channel_main.module.css'
+import styles from './channel_overview.module.css'
 import Image from 'next/image'
 
 export default function Avatar() {
